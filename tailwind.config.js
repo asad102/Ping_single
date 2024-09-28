@@ -2,7 +2,6 @@
 module.exports = {
   content: [
     "./**/*.html",
-    "./**/*.js",
   ],
   theme: {
     fontFamily : {
@@ -17,7 +16,7 @@ module.exports = {
         Black2 : '#15202A',
         BLue2 : '#C2D3FF',
         Blue3 : '#B8C7ED',
-
+        Red3 : '#FF5466',
       },
       fontSize : {
         'preset-1' : ['48px', {
@@ -42,6 +41,8 @@ module.exports = {
         }],
       },
       spacing : {
+        6 : '6px',
+        20 : '20px',
         25 : '25px',
         28 : '28px',
         31 : '31px',
