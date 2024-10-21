@@ -1,0 +1,24 @@
+{
+  "name": "ping_single",
+  "version": "1.0.0",
+  "description": "![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css",
+    "watch": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asad102/Ping_single.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asad102/Ping_single/issues"
+  },
+  "homepage": "https://github.com/asad102/Ping_single#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
